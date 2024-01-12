@@ -1,0 +1,197 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Roboto, sans-serif;
+  min-height: 130vh;
+}
+
+.h2-class {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header a:hover,
+header a:active,
+header a:focus {
+  color: gold;
+}
+
+.check-in {
+  border: 1px solid white;
+}
+
+.checkin-checkout-rooms-sections {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1px;
+}
+
+.check-in-class {
+  border: 2px solid white;
+  padding: 10px;
+  background-color: white;
+  color: black;
+}
+
+.checkin-checkout-rooms-sections button {
+  padding-left: 40px;
+  padding-right: 40px;
+  transition: all 500ms ease-in-out;
+}
+
+.checkin-checkout-rooms-sections button:hover {
+  display: flex;
+  flex-direction: row;
+}
+
+.check-in-class:hover {
+  color: rgb(194, 177, 82);
+}
+
+.rooms {
+  display: flex;
+  gap: 5px;
+}
+
+.singlebed-class img {
+  height: 300px;
+  width: 100%;
+}
+
+.doublebed-class :hover {
+  transform: scale(1.1);
+}
+
+.singlebed-class :hover {
+  transform: scale(1.1);
+}
+
+.offerimg:hover {
+  transform: scale(1.1);
+}
+
+.roomsfull {
+  margin-bottom: 20px;
+  font-size: xx-large;
+}
+
+.roomh2:hover {
+  color: blue;
+}
+
+.offerh2 {
+  margin-left: 20px;
+}
+.offerh2:hover {
+  color: crimson;
+}
+
+.doublebed-class img {
+  height: 300px;
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.offerimg img {
+  height: 300px;
+  width: 300px;
+  margin-left: 50px;
+}
+
+.figcaption-class {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.offerimg {
+  display: flex;
+  flex-direction: row;
+}
+/* .img-about img{
+    height: 400px;
+    width: 300px;
+    margin-left: 30px;
+} */
+
+.about-fig {
+  margin-left: 15px;
+  margin-left: 100px;
+}
+
+.Image-section img {
+  width: 500px;
+  height: 500px;
+  margin-left: 100px;
+}
+
+.Image-section figcaption {
+  text-align: center;
+}
+
+.about-us-article {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* .Image-section,.about-us-section{
+    display: flex;
+    gap:20px;
+    align-items: center;
+} */
+
+.about-us-section {
+  line-height: 70px;
+  margin-left: 150px;
+  font-size: medium;
+}
+
+.about-us-section:hover {
+  transform: scale(1.1);
+}
+
+.about-us-section address {
+  line-height: 40px;
+}
+
+/* .guest{
+    margin-left: 100px;
+} */
+
+.guest img {
+  height: auto;
+  width: 100%;
+}
+
+.check-in-link {
+  background-color: palevioletred;
+  text-align: center;
+}
